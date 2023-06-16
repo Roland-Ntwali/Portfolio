@@ -1,16 +1,14 @@
-import React from 'react';
-import '../index.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <h1>Ntwali Roland</h1>
-    <p>Im a software developer passionate about creating amazing web applications.</p>
-    {/* Navigation links */}
     <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <Link to="/">About</Link>
+      <Link to="/projects">Projects</Link>
+      <Link to="/contacts">Contact</Link>
     </nav>
+    <h1>Ntwali Roland</h1>
+    <p>I&apos;m a software developer passionate about creating amazing web applications.</p>
   </header>
 );
 

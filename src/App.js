@@ -4,6 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/ContactForm';
+import Services from './components/Services'; // Import the Services component
 import Footer from './components/Footer';
 
 const App = () => (
@@ -14,6 +15,9 @@ const App = () => (
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contacts" element={<ContactForm />} />
+        <Route path="/services" element={<Services />} />
+        {' '}
+        {/* Add the Services route */}
       </Routes>
       <Footer />
     </div>

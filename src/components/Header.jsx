@@ -3,15 +3,21 @@ import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const location = useLocation();
-  const hideHeaderContent = location.pathname === '/projects' || location.pathname === '/contacts';
+  const hideHeaderContent = location.pathname === '/projects'
+    || location.pathname === '/contacts'
+    || location.pathname === '/services';
 
   return (
     <>
       <header>
+        <h3>Roland</h3>
         <nav>
           <Link to="/">About</Link>
           <Link to="/projects">Projects</Link>
+          <Link to="/services">Services</Link>
           <Link to="/contacts">Contact</Link>
+          {' '}
+          {/* Add Services link */}
         </nav>
       </header>
       {!hideHeaderContent && (

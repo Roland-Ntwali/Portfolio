@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Projects = () => (
+const Works = () => (
   <section id="projects">
 
     {/* Project 1 */}
@@ -32,4 +32,4 @@ const Projects = () => (
   </section>
 );
 
-export default Projects;
+export default Works;

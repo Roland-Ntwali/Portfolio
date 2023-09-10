@@ -8,6 +8,8 @@ const ContactForm = () => {
     message: '',
   });
 
+  const [submitStatus, setSubmitStatus] = useState(null);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -33,13 +35,14 @@ const ContactForm = () => {
         'T3IE1ODnDXFjJ2aTX',
       );
 
-      alert('Message sent successfully!');
+      setSubmitStatus('success');
       setFormData({
         user_name: '',
         user_email: '',
         message: '',
       });
     } catch (error) {
+      setSubmitStatus('failure');
       console.error('Error:', error);
     }
   };
@@ -80,6 +83,8 @@ const ContactForm = () => {
         <br />
         <button type="submit">Get in touch</button>
       </form>
+      {submitStatus === 'success' && <div>Message sent successfully!</div>}
+      {submitStatus === 'failure' && <div>Error sending message. Please try again later.</div>}
     </section>
   );
 };

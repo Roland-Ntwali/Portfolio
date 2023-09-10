@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    fullName: '',
-    email: '',
+    user_name: '',
+    user_email: '',
     message: '',
   });
 
@@ -15,10 +16,32 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add code to handle form submission here
-    // You can use formData to access the entered values
+
+    try {
+      const templateParams = {
+        user_name: formData.user_name,
+        user_email: formData.user_email,
+        message: formData.message,
+      };
+
+      await emailjs.send(
+        'service_gqh08nn',
+        'template_49ixsmq',
+        templateParams,
+        'T3IE1ODnDXFjJ2aTX',
+      );
+
+      alert('Message sent successfully!');
+      setFormData({
+        user_name: '',
+        user_email: '',
+        message: '',
+      });
+    } catch (error) {
+      console.error('Error:', error);
+    }
   };
 
   return (
@@ -31,18 +54,18 @@ const ContactForm = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          name="fullName"
+          name="user_name"
           placeholder="Full names"
-          value={formData.fullName}
+          value={formData.user_name}
           onChange={handleChange}
           required
         />
         <br />
         <input
           type="email"
-          name="email"
+          name="user_email"
           placeholder="Your email address"
-          value={formData.email}
+          value={formData.user_email}
           onChange={handleChange}
           required
         />

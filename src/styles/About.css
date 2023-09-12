@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.about_me {
+  width: 40%;
+}
+
+.about_me h2 {
+  color: #fff;
+  width: 350px;
+}
+
+.about_me hr {
+  color: #fff;
+  background-color: #fff;
+  width: 350px;
+  margin: 0;
+}
+
+.about-para-one {
+  width: 95%;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  font-size: 24px;
+}

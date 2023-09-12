@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import ro from '../images/ro.jpg';
+import '../styles/Header.css';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -33,8 +35,11 @@ const Header = () => {
 
   return (
     <>
-      <header>
+      <header className='navbar-content'>
+        <div className='logo'>
         <h3>Roland</h3>
+        </div>
+        <div className='menu-list'>
         <nav className="menu-toggle" style={{ display: windowWidth > 768 ? 'none' : 'block' }}>
           <button
             className={`menu-toggle ${isMenuOpen ? 'open' : ''}`}
@@ -69,27 +74,42 @@ const Header = () => {
         {windowWidth > 768 && (
           <ul className="new-menu-list">
             <li>
-              <Link to="/works">Works</Link>
+              <Link to="/">About</Link>
             </li>
             <li>
-              <Link to="/contacts">Contact</Link>
+              <Link to="/works">Works</Link>
             </li>
             <li>
               <Link to="/services">Services</Link>
             </li>
-            {/* Additional menu links */}
             <li>
-              <Link to="/">About</Link>
+              <Link to="/contacts">Contact</Link>
             </li>
+            {/* Additional menu links */}
+            
           </ul>
         )}
+        </div>
       </header>
       {!hideHeaderContent && (
         <>
-          <div className="header-content">
+          <div className="about-me">
+            <div className="my-description">
             <h1>Hi, I am Ntwali Roland</h1>
-            <p>I&apos;m a software developer passionate about creating amazing web applications.</p>
-            <img src={ro} alt="Ntwali Roland" style={{ width: '250px', height: 'auto' }} />
+              <p> I'm a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don't hestiate to contact me.</p>
+
+          <h4 className="icon">LET'S CONNECT</h4>
+          <ul className="social-icons">
+            <li><a href="https://github.com/yourusername"><FaGithub /></a></li>
+            <li><a href="https://linkedin.com/in/yourusername"><FaLinkedin /></a></li>
+            <li><a href="https://twitter.com/yourusername"><FaTwitter /></a></li>
+          </ul>
+            </div>
+            <div className='my-image'>
+              <img src={ro} alt="Ntwali Roland" style={{ width: '250px', height: 'auto' }} />
+            </div>
           </div>
         </>
       )}

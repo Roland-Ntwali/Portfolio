@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import ro from '../images/ro.jpg';
 import '../styles/Header.css';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -35,25 +35,25 @@ const Header = () => {
 
   return (
     <>
-      <header className='navbar-content'>
-        <div className='logo'>
-        <h3>Roland</h3>
+      <header className="navbar-content">
+        <div className="logo">
+          <h3>Roland</h3>
         </div>
-        <div className='menu-list'>
-        <nav className="menu-toggle" style={{ display: windowWidth > 768 ? 'none' : 'block' }}>
-          <button
-            className={`menu-toggle ${isMenuOpen ? 'open' : ''}`}
-            onClick={toggleMenu}
-            aria-label="Toggle menu"
-            type="button"
-          >
-            <div className="menu-icon">
-              <span />
-              <span />
-              <span />
-            </div>
-          </button>
-          {isMenuOpen && (
+        <div className="menu-list">
+          <nav className="menu-toggle" style={{ display: windowWidth > 768 ? 'none' : 'block' }}>
+            <button
+              className={`menu-toggle ${isMenuOpen ? 'open' : ''}`}
+              onClick={toggleMenu}
+              aria-label="Toggle menu"
+              type="button"
+            >
+              <div className="menu-icon">
+                <span />
+                <span />
+                <span />
+              </div>
+            </button>
+            {isMenuOpen && (
             <ul className="menu-links">
               <li>
                 <Link to="/works" onClick={closeMenu}>Works</Link>
@@ -69,9 +69,9 @@ const Header = () => {
                 <Link to="/" onClick={closeMenu}>About</Link>
               </li>
             </ul>
-          )}
-        </nav>
-        {windowWidth > 768 && (
+            )}
+          </nav>
+          {windowWidth > 768 && (
           <ul className="new-menu-list">
             <li>
               <Link to="/">About</Link>
@@ -86,28 +86,31 @@ const Header = () => {
               <Link to="/contacts">Contact</Link>
             </li>
             {/* Additional menu links */}
-            
+
           </ul>
-        )}
+          )}
         </div>
       </header>
       {!hideHeaderContent && (
         <>
           <div className="about-me">
             <div className="my-description">
-            <h1>Hi, I am Ntwali Roland</h1>
-              <p> I'm a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don't hestiate to contact me.</p>
+              <h1>Hi, I am Ntwali Roland</h1>
+              <p>
+                {' '}
+                I&apos;m a software developer! I can help you build a product , feature or
+                website Look through some of my work and experience! If you like what
+                you see and have a project you need coded, don't hestiate to contact me.
+              </p>
 
-          <h4 className="icon">LET'S CONNECT</h4>
-          <ul className="social-icons">
-            <li><a href="https://github.com/yourusername"><FaGithub /></a></li>
-            <li><a href="https://linkedin.com/in/yourusername"><FaLinkedin /></a></li>
-            <li><a href="https://twitter.com/yourusername"><FaTwitter /></a></li>
-          </ul>
+              <h4 className="icon">LET'S CONNECT</h4>
+              <ul className="social-icons">
+                <li><a href="https://github.com/Roland-Ntwali"><FaGithub /></a></li>
+                <li><a href="https://www.linkedin.com/in/roland-ntwali/"><FaLinkedin /></a></li>
+                <li><a href="https://twitter.com/_Ntwali"><FaTwitter /></a></li>
+              </ul>
             </div>
-            <div className='my-image'>
+            <div className="my-image">
               <img src={ro} alt="Ntwali Roland" style={{ width: '250px', height: 'auto' }} />
             </div>
           </div>

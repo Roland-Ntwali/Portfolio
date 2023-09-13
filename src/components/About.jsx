@@ -29,9 +29,9 @@ const About = () => (
           solutions that exceed client expectations.
         </p>
         <ul>
-          <li>Age: 25</li>
-          <li>Address: Kigali, Rwanda</li>
-          <li>Phone: +250788516564</li>
+          <li>Age:  25 years old</li>
+          <li>Address:  Kigali, Rwanda</li>
+          <li>Phone:  +250788516564</li>
         </ul>
         <a className="cv" href="https://docs.google.com/document/d/1NLjj_45cJeJFrfiAhvt2pI2ZUJFoFwJD5DoCYbOHiD8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
           <button className="cv_button" type="button">CV</button>

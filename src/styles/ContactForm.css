@@ -9,7 +9,7 @@
 }
 .contact-me h1{
     font-size: 35px;
-    margin-top: 35px;
+    margin-bottom: 0;
 }
 .contact-me p{
     width: 50%;
@@ -23,20 +23,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
     padding-bottom: 60px;
 }
 .contact-me input{
     width: 50%;
-    height: 40px;
+    height: 28px;
     border-radius: 6px;
     border: none;
     padding: 8px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .contact-me textarea{
     width: 50%;
-    height: 90px;
+    height: 75px;
     border-radius: 6px;
     border: none;
     padding: 8px;

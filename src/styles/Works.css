@@ -16,10 +16,10 @@
     border-radius: 4px;
     border: 2px solid #fff;
     padding: 20px;
-
+    height: 250px;
+    width: 100%;
 }
 .project1 img{
-    z-index: 1; /* Set a higher z-index for the images */
     width: 400px;
     height: auto;
   }
@@ -33,6 +33,9 @@
     flex-direction: column;
     justify-content: center;
   }
+  .project-details p{
+    font-size: 12px;
+  }
   .project2{
     display: flex;
     justify-content: center;
@@ -42,6 +45,8 @@
     border-radius: 4px;
     flex-direction: row-reverse;
     padding: 20px;
+    height: 250px;
+    width: 100%;
 }
 .project2 img{
     z-index: 1; /* Set a higher z-index for the images */

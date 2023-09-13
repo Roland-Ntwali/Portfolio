@@ -34,7 +34,7 @@ const Works = () => (
         <p>This is a website that allow users to add and remove books, it also provides books
            management where users are able to track the progress of the reading of the book and 
            perform status update based on their progress. This website also always grouping of 
-           books according to their categories</p>
+           books according to their categories.</p>
         <p>Languages used: React, CSS</p>
         <button className="view-project">
           <a href="https://bookstore-cnbs.onrender.com/">View Project</a>

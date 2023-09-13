@@ -1,0 +1,24 @@
+.contact {
+  padding-bottom: 110px;
+}
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-me h1{
+    font-size: 45px;
+}
+.contact-me form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-me input{
+    width: 70%;
+    height: 30px;
+}

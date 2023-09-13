@@ -58,14 +58,41 @@
   display: flex;
   align-items: center;
   padding: 20px 0;
+  text-decoration: none;
 }
 
 .cv_button {
   width: 200px;
   height: 40px;
-  background-color: darkslategray;
+  background-color: #e84434;
   border-radius: 10px;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
+  border: none;
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1c1919;
+  padding: 10px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.footer-text p {
+  padding: 0;
+  margin: 0;
 }

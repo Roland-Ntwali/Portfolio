@@ -1,6 +1,7 @@
 import React from 'react';
 import Services from './Services';
 import '../styles/About.css';
+import ContactForm from './ContactForm';
 
 const About = () => (
   <div>
@@ -38,6 +39,7 @@ const About = () => (
       </div>
     </section>
     <Services />
+    <ContactForm />
   </div>
 );
 

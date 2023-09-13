@@ -5,7 +5,7 @@ import cleanCodeImage from '../images/clean-code.png';
 import designImage from '../images/design.png';
 
 const Services = () => (
-  <section>
+  <section className="service-page">
     <h2 className="service-header">My Services</h2>
     <div id="services">
       <div className="service">

@@ -4,7 +4,7 @@ import '../styles/About.css';
 import ContactForm from './ContactForm';
 
 const About = () => (
-  <div>
+  <div className="about-page">
     <section className="about">
       <div className="about_me">
         <h2>About Me</h2>

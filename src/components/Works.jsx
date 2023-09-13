@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styles/Works.css';
 
 const Works = () => (
-  <section id="projects">
+  <section className="projects">
 
     {/* Project 1 */}
     <div>

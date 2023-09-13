@@ -1,5 +1,5 @@
-.contact {
-  padding-bottom: 60px;
+.contact{
+    background: linear-gradient(to bottom, #000020, rgba(0, 0, 0, 0.94));  color: #fff;
 }
 .contact-me{
   display: flex;
@@ -9,7 +9,7 @@
 }
 .contact-me h1{
     font-size: 35px;
-    margin: 0;
+    margin-top: 35px;
 }
 .contact-me p{
     width: 50%;
@@ -24,6 +24,7 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    padding-bottom: 60px;
 }
 .contact-me input{
     width: 50%;

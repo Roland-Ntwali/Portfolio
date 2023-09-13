@@ -64,7 +64,7 @@
 .cv_button {
   width: 200px;
   height: 40px;
-  background-color: #e84434;
+  background-color: #24516c;
   border-radius: 10px;
   color: #fff;
   font-size: 18px;
@@ -80,7 +80,7 @@
   width: 100%;
   background-color: #1c1919;
   padding: 10px;
-  height: 60px;
+  height: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;

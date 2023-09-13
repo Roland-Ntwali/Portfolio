@@ -10,6 +10,11 @@
 .contact-me h1{
     font-size: 45px;
 }
+.contact-me p{
+    width: 50%;
+    text-align: center;
+    margin: 40px 0;
+}
 .contact-me form{
     width: 100%;
     display: flex;
@@ -19,6 +24,25 @@
     gap: 10px;
 }
 .contact-me input{
-    width: 70%;
-    height: 30px;
+    width: 60%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
+}
+.contact-me textarea{
+    width: 60%;
+    height: 90px;
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
+}
+.contact-me button{
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 22px;
+  background-color: #24516c;
+  color: #fff;
 }

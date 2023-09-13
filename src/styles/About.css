@@ -72,27 +72,3 @@
   border: none;
   text-decoration: none;
 }
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #1c1919;
-  padding: 10px;
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.footer-text {
-  display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-}
-
-.footer-text p {
-  padding: 0;
-  margin: 0;
-}

@@ -5,7 +5,6 @@ import About from './components/About';
 import Works from './components/Works';
 import ContactForm from './components/ContactForm';
 import Services from './components/Services'; // Import the Services component
-import Footer from './components/Footer';
 
 const App = () => (
   <Router>
@@ -19,7 +18,6 @@ const App = () => (
         {' '}
         {/* Add the Services route */}
       </Routes>
-      <Footer />
     </div>
   </Router>
 );

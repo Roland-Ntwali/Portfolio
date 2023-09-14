@@ -100,14 +100,14 @@ const Header = () => {
                 {' '}
                 I&apos;m a software developer! I can help you build a product , feature or
                 website Look through some of my work and experience! If you like what
-                you see and have a project you need coded, don't hestiate to contact me.
+                you see and have a project you need coded, don&apos;t hestiate to contact me.
               </p>
 
-              <h4 className="icon">LET'S CONNECT</h4>
+              <h4 className="icon">LET&apos;S CONNECT</h4>
               <ul className="social-icons">
-                <li><a href="https://github.com/Roland-Ntwali"><FaGithub /></a></li>
-                <li><a href="https://www.linkedin.com/in/roland-ntwali/"><FaLinkedin /></a></li>
-                <li><a href="https://twitter.com/_Ntwali"><FaTwitter /></a></li>
+                <li><a href="https://github.com/Roland-Ntwali" aria-label="GitHub"><FaGithub /></a></li>
+                <li><a href="https://www.linkedin.com/in/roland-ntwali/" aria-label="LinkedIn"><FaLinkedin /></a></li>
+                <li><a href="https://twitter.com/_Ntwali" aria-label="Twitter"><FaTwitter /></a></li>
               </ul>
             </div>
             <div className="my-image">

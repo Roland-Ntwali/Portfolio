@@ -23,7 +23,7 @@ const Works = () => (
           {' '}
         </p>
         <p className="lang">Languages used: Ruby on Rails, CSS</p>
-        <button className="view-project">
+        <button type="button" className="view-project">
           <a href="https://budget-app-g6n2.onrender.com">View Project</a>
         </button>
       </div>
@@ -44,7 +44,7 @@ const Works = () => (
           books according to their categories.
         </p>
         <p>Languages used: React, CSS</p>
-        <button className="view-project">
+        <button type="button" className="view-project">
           <a href="https://bookstore-cnbs.onrender.com/">View Project</a>
         </button>
       </div>
@@ -64,7 +64,7 @@ const Works = () => (
           {' '}
         </p>
         <p>Languages used: Ruby on Rails</p>
-        <button className="view-project">
+        <button type="button" className="view-project">
           <a href="https://github.com/Roland-Ntwali/Blog-App">View Project</a>
         </button>
       </div>
@@ -86,7 +86,7 @@ const Works = () => (
           and users, create rentals, and track rental history for specific individuals.
         </p>
         <p>Languages used: Ruby</p>
-        <button className="view-project">
+        <button type="button" className="view-project">
           <a href="https://github.com/Roland-Ntwali/School-library-app">View Project</a>
         </button>
       </div>
@@ -100,12 +100,15 @@ const Works = () => (
       </div>
       <div className="project-details">
         <h3>Metrics App</h3>
-        <p>This is a react project that renders the COVID-19 updates from different 
-          countries of the world, it displays the number of cases present per day, 
-          tests collected, deaths cases, and much more information, and all those 
-          information is obtained from the API and displayed on the UI. </p>
+        <p>
+          This is a react project that renders the COVID-19 updates from different
+          countries of the world, it displays the number of cases present per day,
+          tests collected, deaths cases, and much more information, and all those
+          information is obtained from the API and displayed on the UI.
+          {' '}
+        </p>
         <p>Languages used: React, CSS</p>
-        <button className="view-project">
+        <button type="button" className="view-project">
           <a href="https://metrics-webapp-iwdl.onrender.com/">View Project</a>
         </button>
       </div>

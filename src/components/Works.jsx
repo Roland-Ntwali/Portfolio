@@ -72,7 +72,7 @@ const Works = () => (
 
     <div className="project2">
       <div className="project-image">
-        <a href="project2_link_here">
+        <a href="https://github.com/Roland-Ntwali/School-library-app">
           <img src={LibraryApp} alt="Project 2" />
         </a>
       </div>
@@ -87,14 +87,14 @@ const Works = () => (
         </p>
         <p>Languages used: Ruby</p>
         <button className="view-project">
-          <a href="project2_link_here">View Project</a>
+          <a href="https://github.com/Roland-Ntwali/School-library-app">View Project</a>
         </button>
       </div>
     </div>
 
     <div className="project1">
       <div className="project-image">
-        <a href="project2_link_here">
+        <a href="https://github.com/Roland-Ntwali/Metrics-webapp">
           <img src={MetricsApp} alt="Project 2" />
         </a>
       </div>
@@ -106,7 +106,7 @@ const Works = () => (
           information is obtained from the API and displayed on the UI. </p>
         <p>Languages used: React, CSS</p>
         <button className="view-project">
-          <a href="project2_link_here">View Project</a>
+          <a href="https://metrics-webapp-iwdl.onrender.com/">View Project</a>
         </button>
       </div>
     </div>

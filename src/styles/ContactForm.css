@@ -1,48 +1,56 @@
-.contact{
-    background: linear-gradient(to bottom, #000020, rgba(0, 0, 0, 0.94));  color: #fff;
+.contact {
+  background: linear-gradient(to bottom, #000020, rgba(0, 0, 0, 0.94));
+  color: #fff;
 }
-.contact-me{
+
+.contact-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contact-me h1{
-    font-size: 35px;
-    margin-bottom: 0;
+
+.contact-me h1 {
+  font-size: 35px;
+  margin-bottom: 0;
 }
-.contact-me p{
-    width: 50%;
-    text-align: center;
-    margin: 40px 0;
-    font-size: 20px;
+
+.contact-me p {
+  width: 50%;
+  text-align: center;
+  margin: 40px 0;
+  font-size: 20px;
 }
-.contact-me form{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 7px;
-    padding-bottom: 60px;
+
+.contact-me form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+  padding-bottom: 60px;
 }
-.contact-me input{
-    width: 50%;
-    height: 28px;
-    border-radius: 6px;
-    border: none;
-    padding: 8px;
-    font-size: 14px;
+
+.contact-me input {
+  width: 50%;
+  height: 28px;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  font-size: 14px;
 }
-.contact-me textarea{
-    width: 50%;
-    height: 75px;
-    border-radius: 6px;
-    border: none;
-    padding: 8px;
-    font-size: 16px;
+
+.contact-me textarea {
+  width: 50%;
+  height: 75px;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  font-size: 16px;
 }
-.contact-me button{
+
+.contact-me button {
   border: none;
   border-radius: 5px;
   width: 200px;

@@ -4,6 +4,7 @@ import BudgetAppImage from '../images/Budget app.png';
 import Bookstore from '../images/Bookstore.png';
 import BlogApp from '../images/Blog app.png';
 import LibraryApp from '../images/School.png';
+import MetricsApp from '../images/metrics.png';
 
 const Works = () => (
   <section className="projects">
@@ -94,13 +95,16 @@ const Works = () => (
     <div className="project1">
       <div className="project-image">
         <a href="project2_link_here">
-          <img src="project2.jpg" alt="Project 2" />
+          <img src={MetricsApp} alt="Project 2" />
         </a>
       </div>
       <div className="project-details">
-        <h3>Project 5</h3>
-        <p>Description of Project 2</p>
-        <p>Languages used: HTML, CSS, React</p>
+        <h3>Metrics App</h3>
+        <p>This is a react project that renders the COVID-19 updates from different 
+          countries of the world, it displays the number of cases present per day, 
+          tests collected, deaths cases, and much more information, and all those 
+          information is obtained from the API and displayed on the UI. </p>
+        <p>Languages used: React, CSS</p>
         <button className="view-project">
           <a href="project2_link_here">View Project</a>
         </button>

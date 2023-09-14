@@ -1,0 +1,81 @@
+.about {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.about-page {
+  background: linear-gradient(to bottom, #000020, rgba(0, 0, 0, 0.94));
+  color: #fff;
+
+  /* height: 100vh; */
+}
+
+.about_me {
+  width: 40%;
+}
+
+.about_me h2 {
+  color: #fff;
+  width: 350px;
+}
+
+.about_me hr {
+  color: #fff;
+  background-color: #fff;
+  width: 350px;
+  margin: 0;
+}
+
+.about-para-one {
+  width: 95%;
+  margin-top: 40px;
+  color: rgba(58, 227, 172, 0.83);
+  font-size: 17px;
+}
+
+.title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.about-me2 {
+  width: 40%;
+}
+
+.about-me2 p {
+  color: rgba(58, 227, 172, 0.83);
+}
+
+.about-me2 ul {
+  list-style-type: none;
+  margin: 0;
+  color: #fff;
+  padding: 0;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cv {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  text-decoration: none;
+}
+
+.cv_button {
+  width: 200px;
+  height: 40px;
+  background-color: #24516c;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+}

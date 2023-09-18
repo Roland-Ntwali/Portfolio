@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .contact-me h1 {
@@ -64,6 +64,7 @@
 @media all and (max-width: 768px) {
 .contact-me p {
   width: 95%;
+  font-size: 20px;
 }
 .contact-me input {
   width: 85%;
@@ -73,5 +74,8 @@
 }
 .contact-me form {
   gap: 13px;
+}
+.contact-me h1{
+  padding-top: 100px;
 }
 }

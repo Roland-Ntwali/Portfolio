@@ -46,12 +46,14 @@ const Header = () => {
               onClick={toggleMenu}
               aria-label="Toggle menu"
               type="button"
+              id="menuButton"
             >
-              <div className="menu-icon">
-                <span />
-                <span />
-                <span />
+              <div className={`menu-icon ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+              <span className="bar1"></span>
+              <span className="bar2"></span>
+              <span className="bar3"></span>
               </div>
+
             </button>
             {isMenuOpen && (
             <ul className="menu-links">

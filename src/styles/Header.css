@@ -44,7 +44,6 @@ body {
   border-radius: 8px;
 
 }
-
 .my-description {
   display: flex;
   width: 60%;
@@ -121,6 +120,7 @@ body {
 }
 .lang-container{
   padding: 20px;
+  margin-left: 35px;
 }
 .underline{
   width: 180px;
@@ -130,4 +130,100 @@ body {
   border: none;
   height: 3px;
   border-radius: 8px;
+}
+@media all and (max-width: 768px) {
+  
+
+#menuButton {
+  position: fixed;
+  top: 10px; /* Adjust the top value as needed */
+  right: 10px; /* Adjust the right value as needed */
+  z-index: 1000; /* Set an appropriate z-index to ensure it appears on top of other elements */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.menu-icon {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 40px;
+  position: relative;
+}
+
+.bar1, .bar2, .bar3 {
+  display: block;
+  background: #333;
+  height: 6px;
+  width: 100%;
+  position: absolute;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.bar1 {
+  top: 0;
+}
+
+.bar2 {
+  top: 16px;
+}
+
+.bar3 {
+  top: 32px;
+}
+
+.open .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.menu-icon span {
+  display: block;
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  background: #333;
+  border-radius: 5px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.menu-icon span:nth-child(1) {
+  top: 0;
+}
+
+.menu-icon span:nth-child(2) {
+  top: 16px;
+}
+
+.menu-icon span:nth-child(3) {
+  top: 32px;
+}
+
+.open span:nth-child(1) {
+  transform: translateY(16px) rotate(-45deg);
+}
+
+.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.open span:nth-child(3) {
+  transform: translateY(-16px) rotate(45deg);
+}
+
 }

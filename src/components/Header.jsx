@@ -28,10 +28,17 @@ const Header = () => {
 
     window.addEventListener('resize', handleResize);
 
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+    } else {
+      document.body.style.overflow = 'visible'; // Allow scrolling when menu is closed
+    }
+
     return () => {
       window.removeEventListener('resize', handleResize);
+      document.body.style.overflow = 'visible'; // Reset overflow on component cleanup
     };
-  }, []);
+  }, [isMenuOpen]);
 
   return (
     <>
@@ -56,21 +63,22 @@ const Header = () => {
 
             </button>
             {isMenuOpen && (
-            <ul className="menu-links">
-              <li>
-                <Link to="/works" onClick={closeMenu}>Works</Link>
-              </li>
-              <li>
-                <Link to="/contacts" onClick={closeMenu}>Contact</Link>
-              </li>
-              <li>
-                <Link to="/services" onClick={closeMenu}>Services</Link>
-              </li>
-              {/* Additional menu links */}
-              <li>
-                <Link to="/" onClick={closeMenu}>About</Link>
-              </li>
-            </ul>
+              <div className={`overlay ${isMenuOpen ? 'open' : ''}`}>
+              <ul className="menu-links">
+                <li>
+                  <Link to="/works" onClick={closeMenu}>Works</Link>
+                </li>
+                <li>
+                  <Link to="/contacts" onClick={closeMenu}>Contact</Link>
+                </li>
+                <li>
+                  <Link to="/services" onClick={closeMenu}>Services</Link>
+                </li>
+                <li>
+                  <Link to="/" onClick={closeMenu}>About</Link>
+                </li>
+              </ul>
+            </div>
             )}
           </nav>
           {windowWidth > 768 && (

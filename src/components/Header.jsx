@@ -66,16 +66,16 @@ const Header = () => {
               <div className={`overlay ${isMenuOpen ? 'open' : ''}`}>
               <ul className="menu-links">
                 <li>
-                  <Link to="/works" onClick={closeMenu}>Works</Link>
-                </li>
-                <li>
-                  <Link to="/contacts" onClick={closeMenu}>Contact</Link>
+                  <Link to="/" onClick={closeMenu}>About</Link>
                 </li>
                 <li>
                   <Link to="/services" onClick={closeMenu}>Services</Link>
                 </li>
                 <li>
-                  <Link to="/" onClick={closeMenu}>About</Link>
+                  <Link to="/works" onClick={closeMenu}>Works</Link>
+                </li>
+                <li>
+                  <Link to="/contacts" onClick={closeMenu}>Contact</Link>
                 </li>
               </ul>
             </div>

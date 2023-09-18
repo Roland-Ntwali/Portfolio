@@ -1,19 +1,19 @@
-.contact {
+/* .contact {
   background: linear-gradient(to bottom, #000020, rgba(0, 0, 0, 0.94));
   color: #fff;
-}
+} */
 
 .contact-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .contact-me h1 {
   font-size: 35px;
   margin-bottom: 0;
-  margin-top: 50px ;
+  /* margin-top: 50px ; */
 }
 
 .contact-me p {
@@ -30,6 +30,7 @@
   align-items: center;
   flex-direction: column;
   gap: 7px;
+  margin-bottom: 75px;
 }
 
 .contact-me input {
@@ -58,4 +59,19 @@
   font-size: 22px;
   background-color: #24516c;
   color: #fff;
+}
+
+@media all and (max-width: 768px) {
+.contact-me p {
+  width: 95%;
+}
+.contact-me input {
+  width: 85%;
+}
+.contact-me textarea {
+  width: 85%;
+}
+.contact-me form {
+  gap: 13px;
+}
 }

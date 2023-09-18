@@ -5,14 +5,11 @@
   padding: 0;
   justify-content: space-around;
   margin-top: 40px;
-  margin-bottom: 70px;
 }
 
 .about-page {
   background: linear-gradient(to bottom, #000020, rgba(0, 0, 0, 0.94));
   color: #fff;
-
-  /* height: 100vh; */
 }
 
 .about_me {
@@ -69,7 +66,7 @@
 }
 
 .cv_button {
-  width: 200px;
+  width: 165px;
   height: 40px;
   background-color: #24516c;
   border-radius: 10px;

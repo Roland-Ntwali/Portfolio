@@ -98,10 +98,11 @@ const Header = () => {
               <h1>Hi, I am Ntwali Roland</h1>
               <p>
                 {' '}
-                I&apos;m a software developer! I can help you build a product , feature or
-                website Look through some of my work and experience! If you like what
-                you see and have a project you need coded, don&apos;t hestiate to contact me.
+                FULL-STACK SOFTWARE DEVELOPER
               </p>
+              <Link to="/contacts">
+              <button className="hire">Hire Me</button>
+            </Link>
 
               <h4 className="icon">LET&apos;S CONNECT</h4>
               <ul className="social-icons">

@@ -8,17 +8,10 @@ body {
   background: linear-gradient(to bottom, #000020, rgba(0, 0, 0, 0.94));
   color: #fff;
 }
-
-/* .container{
-  margin: 0;
-  padding: 0;
-} */
 .navbar-content {
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
-
-  /* width: 100%; */
   color: #fff;
 }
 
@@ -41,6 +34,16 @@ body {
   background-size: contain;
   position: relative;
 }
+.hire{
+  width: 200px;
+  height: 46px;
+  font-size: 22px;
+  border: none;
+  background-color: #24516c;
+  color: #fff;
+  border-radius: 8px;
+
+}
 
 .my-description {
   display: flex;
@@ -51,7 +54,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-size: 23px;
+  font-size: 18px;
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -99,4 +102,32 @@ body {
 
 .social-icons li a {
   color: white;
+}
+.language-button,
+.framework-button,
+.skill-button {
+  width: 130px;
+  height: 37px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 15px
+}
+.lang-container{
+  padding: 20px;
+}
+.underline{
+  width: 180px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  background: #fff;
+  border: none;
+  height: 3px;
+  border-radius: 8px;
 }

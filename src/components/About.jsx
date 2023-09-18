@@ -5,12 +5,13 @@ import ContactForm from './ContactForm';
 
 const About = () => (
   <div className="about-page">
-    <section className="about">
+    <section>
+      <div className="about">
       <div className="about_me">
         <h2>About Me</h2>
         <hr />
         <p className="about-para-one">
-          Hello I&apos;m a software developer! I can help you build a product ,
+          Hello, I&apos;m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience!
           If you like what you see and have a project you need coded,
           don&apos;t hestiate to contact me.
@@ -29,14 +30,48 @@ const About = () => (
           solutions that exceed client expectations.
         </p>
         <ul>
-          <li>Age:  25 years old</li>
           <li>Address:  Kigali, Rwanda</li>
           <li>Phone:  +250788516564</li>
         </ul>
         <a className="cv" href="https://docs.google.com/document/d/1NLjj_45cJeJFrfiAhvt2pI2ZUJFoFwJD5DoCYbOHiD8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-          <button className="cv_button" type="button">CV</button>
+          <button className="cv_button" type="button">Download CV</button>
         </a>
       </div>
+      </div>
+      <div className="lang-container">
+      <div className="languages">
+        <h1>Languages</h1>
+        <hr className="underline" />
+        <div className="buttons">
+          <button className="language-button">HTML</button>
+          <button className="language-button">CSS</button>
+          <button className="language-button">Javascript</button>
+          <button className="language-button">Ruby</button>
+        </div>
+      </div>
+      <div className="frameworks">
+        <h1>Frameworks</h1>
+        <hr className="underline" />
+        <div className="buttons">
+          <button className="framework-button">Ruby on Rails</button>
+          <button className="framework-button">React</button>
+          <button className="framework-button">Rspec</button>
+          <button className="framework-button">Capybara</button>
+          <button className="framework-button">Bootstrap</button>
+          <button className="framework-button">Sass</button>
+        </div>
+      </div>
+      <div className="skills">
+        <h1>Skills</h1>
+        <hr className="underline" />
+        <div className="buttons">
+          <button className="skill-button">Postgress</button>
+          <button className="skill-button">Github</button>
+          <button className="skill-button">Git</button>
+          <button className="skill-button">Codepen</button>
+        </div>
+      </div>
+    </div>
     </section>
     <Services />
     <ContactForm />

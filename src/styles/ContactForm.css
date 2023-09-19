@@ -78,6 +78,7 @@
 
   .contact-me form {
     gap: 13px;
+    margin: 0;
   }
 
   .contact-me h1 {

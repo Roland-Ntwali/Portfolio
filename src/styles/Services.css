@@ -3,7 +3,7 @@
   gap: 20px;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 40px 0;
   justify-content: center;
   margin-bottom: 100px;
 }
@@ -30,4 +30,28 @@
   padding: 16px;
   width: 28%;
   text-align: center;
+}
+
+@media all and (max-width: 768px) {
+  #services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 0;
+  }
+
+  .service {
+    width: 75%;
+    height: 29vh;
+  }
+
+  .service img {
+    width: 60px;
+  }
+
+  .service h3 {
+    margin: 1px;
+  }
 }

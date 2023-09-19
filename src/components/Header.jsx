@@ -112,7 +112,7 @@ const Header = () => {
               <h1>Hi, I am Ntwali Roland</h1>
               <p>
                 {' '}
-                FULL-STACK SOFTWARE DEVELOPER
+                Helping people make the world a better place through quality software.
               </p>
               <Link to="/contacts">
                 <button type="button" className="hire">Hire Me</button>

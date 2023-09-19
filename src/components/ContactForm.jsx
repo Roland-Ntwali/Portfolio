@@ -44,6 +44,7 @@ const ContactForm = () => {
       });
     } catch (error) {
       setSubmitStatus('failure');
+      // eslint-disable-next-line
       console.error('Error:', error);
     }
   };

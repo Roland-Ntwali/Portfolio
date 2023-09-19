@@ -1,10 +1,36 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import Services from './Services';
 import '../styles/About.css';
 import ContactForm from './ContactForm';
+import ro from '../images/ro.jpg';
+import '../styles/Header.css';
 
 const About = () => (
   <div className="about-page">
+    <div className="about-me">
+      <div className="my-description">
+        <h1>Hi, I am Ntwali Roland</h1>
+        <p>
+          {' '}
+          Helping people make the world a better place through quality software.
+        </p>
+        <Link to="/contacts">
+          <button type="button" className="hire">Hire Me</button>
+        </Link>
+
+        <h4 className="icon">LET&apos;S CONNECT</h4>
+        <ul className="social-icons">
+          <li><a href="https://github.com/Roland-Ntwali" aria-label="GitHub"><FaGithub /></a></li>
+          <li><a href="https://www.linkedin.com/in/roland-ntwali/" aria-label="LinkedIn"><FaLinkedin /></a></li>
+          <li><a href="https://twitter.com/_Ntwali" aria-label="Twitter"><FaTwitter /></a></li>
+        </ul>
+      </div>
+      <div className="my-image">
+        <img src={ro} alt="Ntwali Roland" style={{ width: '250px', height: 'auto' }} />
+      </div>
+    </div>
     <section>
       <div className="about">
         <div className="about_me">

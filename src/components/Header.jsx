@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import ro from '../images/ro.jpg';
-import '../styles/Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -11,11 +8,6 @@ const Header = () => {
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
-
-  const location = useLocation();
-  const hideHeaderContent = location.pathname === '/works'
-    || location.pathname === '/contacts'
-    || location.pathname === '/services';
 
   const closeMenu = () => {
     setMenuOpen(false);
@@ -105,32 +97,6 @@ const Header = () => {
           )}
         </div>
       </header>
-      {!hideHeaderContent && (
-        <>
-          <div className="about-me">
-            <div className="my-description">
-              <h1>Hi, I am Ntwali Roland</h1>
-              <p>
-                {' '}
-                Helping people make the world a better place through quality software.
-              </p>
-              <Link to="/contacts">
-                <button type="button" className="hire">Hire Me</button>
-              </Link>
-
-              <h4 className="icon">LET&apos;S CONNECT</h4>
-              <ul className="social-icons">
-                <li><a href="https://github.com/Roland-Ntwali" aria-label="GitHub"><FaGithub /></a></li>
-                <li><a href="https://www.linkedin.com/in/roland-ntwali/" aria-label="LinkedIn"><FaLinkedin /></a></li>
-                <li><a href="https://twitter.com/_Ntwali" aria-label="Twitter"><FaTwitter /></a></li>
-              </ul>
-            </div>
-            <div className="my-image">
-              <img src={ro} alt="Ntwali Roland" style={{ width: '250px', height: 'auto' }} />
-            </div>
-          </div>
-        </>
-      )}
     </>
   );
 };

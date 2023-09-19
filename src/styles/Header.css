@@ -4,10 +4,12 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+
   /* height: 100vh; */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.94), #000020);
   color: #fff;
 }
+
 .navbar-content {
   display: flex;
   justify-content: space-between;
@@ -25,12 +27,13 @@ body {
   color: #fff;
   height: 100vh;
   background:
-  linear-gradient(to bottom, rgba(0, 0, 0, 0.94), #000020),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.94), #000020),
     url("../images/landing-page.png") center center no-repeat;
   background-size: contain;
   position: relative;
 }
-.hire{
+
+.hire {
   width: 200px;
   height: 46px;
   font-size: 22px;
@@ -38,8 +41,8 @@ body {
   background-color: #24516c;
   color: #fff;
   border-radius: 8px;
-
 }
+
 .my-description {
   display: flex;
   width: 60%;
@@ -98,6 +101,7 @@ body {
 .social-icons li a {
   color: white;
 }
+
 .language-button,
 .framework-button,
 .skill-button {
@@ -109,16 +113,19 @@ body {
   border-radius: 8px;
   text-align: center;
 }
-.buttons{
+
+.buttons {
   display: flex;
   align-items: center;
-  gap: 15px
+  gap: 15px;
 }
-.lang-container{
+
+.lang-container {
   padding: 20px;
   margin-left: 35px;
 }
-.underline{
+
+.underline {
   width: 180px;
   margin-bottom: 20px;
   margin-left: 0;
@@ -127,6 +134,7 @@ body {
   height: 3px;
   border-radius: 8px;
 }
+
 @media all and (max-width: 768px) {
   .overlay {
     position: fixed;
@@ -143,22 +151,22 @@ body {
     pointer-events: none; /* Initially hidden and not clickable */
     transition: opacity 0.3s ease;
   }
-  
+
   .overlay.open {
     opacity: 1; /* Show the overlay */
     pointer-events: auto; /* Make it clickable */
   }
-  
+
   .menu-links {
     list-style-type: none;
     padding: 0;
     text-align: center;
   }
-  
+
   .menu-links li {
     margin-bottom: 20px;
   }
-  
+
   .menu-links a {
     text-decoration: none;
     font-size: 24px;
@@ -166,95 +174,97 @@ body {
     display: block;
   }
 
-#menuButton {
-  position: fixed;
-  top: 10px; /* Adjust the top value as needed */
-  right: 10px; /* Adjust the right value as needed */
-  z-index: 1000; /* Set an appropriate z-index to ensure it appears on top of other elements */
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
+  #menuButton {
+    position: fixed;
+    top: 10px; /* Adjust the top value as needed */
+    right: 10px; /* Adjust the right value as needed */
+    z-index: 1000; /* Set an appropriate z-index to ensure it appears on top of other elements */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
 
-.menu-toggle {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
-.menu-icon {
-  display: block;
-  cursor: pointer;
-  width: 50px;
-  height: 40px;
-  position: relative;
-}
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    position: relative;
+  }
 
-.bar1, .bar2, .bar3 {
-  display: block;
-  background: #333;
-  height: 6px;
-  width: 100%;
-  position: absolute;
-  transition: transform 0.3s, opacity 0.3s;
-}
+  .bar1,
+  .bar2,
+  .bar3 {
+    display: block;
+    background: #333;
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
+  }
 
-.bar1 {
-  top: 0;
-}
+  .bar1 {
+    top: 0;
+  }
 
-.bar2 {
-  top: 16px;
-}
+  .bar2 {
+    top: 16px;
+  }
 
-.bar3 {
-  top: 32px;
-}
+  .bar3 {
+    top: 32px;
+  }
 
-.open .bar1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
+  .open .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
 
-.open .bar2 {
-  opacity: 0;
-}
+  .open .bar2 {
+    opacity: 0;
+  }
 
-.open .bar3 {
-  transform: rotate(45deg) translate(-5px, -6px);
-}
+  .open .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
 
-.menu-icon span {
-  display: block;
-  position: absolute;
-  height: 6px;
-  width: 100%;
-  background: #fff;
-  border-radius: 5px;
-  transition: transform 0.3s, opacity 0.3s;
-}
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
 
-.menu-icon span:nth-child(1) {
-  top: 0;
-}
+  .menu-icon span:nth-child(1) {
+    top: 0;
+  }
 
-.menu-icon span:nth-child(2) {
-  top: 16px;
-}
+  .menu-icon span:nth-child(2) {
+    top: 16px;
+  }
 
-.menu-icon span:nth-child(3) {
-  top: 32px;
-}
+  .menu-icon span:nth-child(3) {
+    top: 32px;
+  }
 
-.open span:nth-child(1) {
-  transform: translateY(16px) rotate(-45deg);
-}
+  .open span:nth-child(1) {
+    transform: translateY(16px) rotate(-45deg);
+  }
 
-.open span:nth-child(2) {
-  opacity: 0;
-}
+  .open span:nth-child(2) {
+    opacity: 0;
+  }
 
-.open span:nth-child(3) {
-  transform: translateY(-16px) rotate(45deg);
-}
+  .open span:nth-child(3) {
+    transform: translateY(-16px) rotate(45deg);
+  }
 }

@@ -55,49 +55,53 @@ const Header = () => {
               type="button"
               id="menuButton"
             >
-              <div className={`menu-icon ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-              <span className="bar1"></span>
-              <span className="bar2"></span>
-              <span className="bar3"></span>
+              <div
+                className={`menu-icon ${isMenuOpen ? 'open' : ''}`}
+                onClick={toggleMenu}
+                onKeyDown={(e) => e.key === 'Enter' && toggleMenu()} // Handle Enter key for accessibility
+                role="button"
+                tabIndex={0} // Make it focusable
+              >
+                <span className="bar1" />
+                <span className="bar2" />
+                <span className="bar3" />
               </div>
-
             </button>
             {isMenuOpen && (
               <div className={`overlay ${isMenuOpen ? 'open' : ''}`}>
-              <ul className="menu-links">
-                <li>
-                  <Link to="/" onClick={closeMenu}>About</Link>
-                </li>
-                <li>
-                  <Link to="/services" onClick={closeMenu}>Services</Link>
-                </li>
-                <li>
-                  <Link to="/works" onClick={closeMenu}>Works</Link>
-                </li>
-                <li>
-                  <Link to="/contacts" onClick={closeMenu}>Contact</Link>
-                </li>
-              </ul>
-            </div>
+                <ul className="menu-links">
+                  <li>
+                    <Link to="/" onClick={closeMenu}>About</Link>
+                  </li>
+                  <li>
+                    <Link to="/services" onClick={closeMenu}>Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/works" onClick={closeMenu}>Works</Link>
+                  </li>
+                  <li>
+                    <Link to="/contacts" onClick={closeMenu}>Contact</Link>
+                  </li>
+                </ul>
+              </div>
             )}
           </nav>
           {windowWidth > 768 && (
-          <ul className="new-menu-list">
-            <li>
-              <Link to="/">About</Link>
-            </li>
-            <li>
-              <Link to="/works">Works</Link>
-            </li>
-            <li>
-              <Link to="/services">Services</Link>
-            </li>
-            <li>
-              <Link to="/contacts">Contact</Link>
-            </li>
-            {/* Additional menu links */}
-
-          </ul>
+            <ul className="new-menu-list">
+              <li>
+                <Link to="/">About</Link>
+              </li>
+              <li>
+                <Link to="/works">Works</Link>
+              </li>
+              <li>
+                <Link to="/services">Services</Link>
+              </li>
+              <li>
+                <Link to="/contacts">Contact</Link>
+              </li>
+              {/* Additional menu links */}
+            </ul>
           )}
         </div>
       </header>
@@ -111,8 +115,8 @@ const Header = () => {
                 FULL-STACK SOFTWARE DEVELOPER
               </p>
               <Link to="/contacts">
-              <button className="hire">Hire Me</button>
-            </Link>
+                <button type="button" className="hire">Hire Me</button>
+              </Link>
 
               <h4 className="icon">LET&apos;S CONNECT</h4>
               <ul className="social-icons">

@@ -76,17 +76,20 @@
   border: none;
   text-decoration: none;
 }
+
 @media all and (max-width: 768px) {
-  .about{
+  .about {
     display: flex;
     flex-direction: column;
   }
-  .about-me{
+
+  .about-me {
     gap: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
   }
+
   .my-description {
     display: flex;
     width: 75%;
@@ -100,16 +103,19 @@
     animation: fadeIn 1s ease-in-out;
     gap: 22px;
   }
-  .my-image{
+
+  .my-image {
     display: none;
   }
-  .about_me{
+
+  .about_me {
     width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .about-me2 {
     width: 95%;
     display: flex;
@@ -119,16 +125,17 @@
     margin: 0;
     padding-left: 14px;
   }
-   .lang-container {
+
+  .lang-container {
     padding: 15px;
-    margin: 0px;
+    margin: 0;
   }
 
   .buttons {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next line */
   }
-  
+
   .language-button {
     flex: 0 0 50%; /* Each button takes up 50% of the container width */
     box-sizing: border-box; /* Ensure padding and border are included in width */
@@ -136,5 +143,4 @@
     padding: 8px; /* Adjust padding as needed */
     margin: 4px; /* Add some margin between buttons */
   }
-  
 }

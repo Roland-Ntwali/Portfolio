@@ -176,13 +176,13 @@ body {
 
   #menuButton {
     position: fixed;
-    top: 10px; /* Adjust the top value as needed */
-    right: 10px; /* Adjust the right value as needed */
-    z-index: 1000; /* Set an appropriate z-index to ensure it appears on top of other elements */
-    background: none;
+    top: 3px;
+    right: 3px;
+    z-index: 1000;
+    background: #3e3e3e;
     border: none;
     cursor: pointer;
-    padding: 0;
+    padding: 8px;
   }
 
   .menu-toggle {

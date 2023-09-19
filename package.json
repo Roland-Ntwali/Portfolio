@@ -27,7 +27,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "postdeploy": "gh-pages -d build -r https://Roland-Ntwali.github.io/Portfolio -b main"
+    "postdeploy": "gh-pages -d build -r https://Roland-Ntwali.github.io/Portfolio -b master"
   },
   "eslintConfig": {
     "extends": [

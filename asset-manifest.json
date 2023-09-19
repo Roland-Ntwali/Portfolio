@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e165ed30.css",
+    "main.js": "/Portfolio/static/js/main.cea6b24d.js",
+    "static/media/ro.jpg": "/Portfolio/static/media/ro.6e585fc8a2c7399e0dc6.jpg",
+    "static/media/landing-page.png": "/Portfolio/static/media/landing-page.480caaeefb73b2e3a365.png",
+    "static/media/Bookstore.png": "/Portfolio/static/media/Bookstore.3f21347e8366188affee.png",
+    "static/media/metrics.png": "/Portfolio/static/media/metrics.44215a7b5abe6eb9402b.png",
+    "static/media/Blog app.png": "/Portfolio/static/media/Blog app.9ceba3be9410557cf7d7.png",
+    "static/media/clean-code.png": "/Portfolio/static/media/clean-code.f3a058e6e8a399191723.png",
+    "static/media/app-development.png": "/Portfolio/static/media/app-development.f9d169e80e84e333a6d1.png",
+    "static/media/Budget app.png": "/Portfolio/static/media/Budget app.0876d0e1114e3cc56824.png",
+    "static/media/School.png": "/Portfolio/static/media/School.bf7b995aa453b69c2f48.png",
+    "static/media/design.png": "/Portfolio/static/media/design.96771963c0516e55da60.png",
+    "index.html": "/Portfolio/index.html",
+    "main.e165ed30.css.map": "/Portfolio/static/css/main.e165ed30.css.map",
+    "main.cea6b24d.js.map": "/Portfolio/static/js/main.cea6b24d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e165ed30.css",
+    "static/js/main.cea6b24d.js"
+  ]
+}

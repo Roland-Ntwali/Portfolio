@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 *Table of Contents*
 
-## Available Scripts
+- [📗 *Table of Contents*](#-table-of-contents)
+- [:open\_book: X-portfolio ](#open_book-x-portfolio-)
+  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [Live Demo ](#live-demo-)
+  - [Getting Started ](#getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [Future Features ](#future-features-)
+  - [Contributing ](#contributing-)
+  - [Show your support ](#show-your-support-)
+  - [License ](#license-)
 
-In the project directory, you can run:
+#  :open_book: X-portfolio <a name="about-project"></a>
+X-portfolio is a web application that showcases my projects, gives visitors details about me and how to get in touch.
 
-### `npm start`
+## :hammer_and_wrench: Built With <a name="built-with"></a>
+### Tech Stack
+<details><summary>Client</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+  </ul>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Key Features
+  - Home Page
+  - Works Page
+  - About Page
+  - Contact Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm test`
+## Live Demo <a name="live-demo"></a>
+- [Roland's Portfolio](https://roland-ntwali.github.io/Portfolio)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build`
+## Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In order to run this project you need:
+- [Node.js](https://nodejs.org/en) installed on your machine
+- Text editor
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Setup
 
-### `npm run eject`
+Clone this repository to your desired folder:<br>
+```sh
+  cd my-prefered-folder
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  git clone https://github.com/Roland-Ntwali/Portfolio.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install this project with:<br>
+```sh
+  cd Portfolio
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  npm install
+```
 
-## Learn More
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the project, execute the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+  npm start
+```
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👥 Authors <a name="authors"></a>
 
-### Analyzing the Bundle Size
+👤 **Roland**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [Roland-Ntwali](https://github.com/Roland-Ntwali)
+- Twitter: [_Ntwali](https://twitter.com/_Ntwali)
+- LinkedIn: [roland-ntwali](https://www.linkedin.com/in/roland-ntwali/)
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Future Features <a name="future-features"></a>
+  - Add tests
+  - Add a dark scheme mode
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Roland-Ntwali/Portfolio/issues).
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Show your support <a name="support"></a>
+If you like this project give it a star.
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License <a name="license"></a>
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

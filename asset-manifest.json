@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9faed150.css",
+    "main.css": "/Portfolio/static/css/main.8ff6e639.css",
     "main.js": "/Portfolio/static/js/main.fdd300e7.js",
     "static/media/ro.jpg": "/Portfolio/static/media/ro.6e585fc8a2c7399e0dc6.jpg",
     "static/media/landing-page.png": "/Portfolio/static/media/landing-page.480caaeefb73b2e3a365.png",
@@ -13,11 +13,11 @@
     "static/media/School.png": "/Portfolio/static/media/School.bf7b995aa453b69c2f48.png",
     "static/media/design.png": "/Portfolio/static/media/design.96771963c0516e55da60.png",
     "index.html": "/Portfolio/index.html",
-    "main.9faed150.css.map": "/Portfolio/static/css/main.9faed150.css.map",
+    "main.8ff6e639.css.map": "/Portfolio/static/css/main.8ff6e639.css.map",
     "main.fdd300e7.js.map": "/Portfolio/static/js/main.fdd300e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9faed150.css",
+    "static/css/main.8ff6e639.css",
     "static/js/main.fdd300e7.js"
   ]
 }

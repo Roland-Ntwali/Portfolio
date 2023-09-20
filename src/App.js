@@ -4,19 +4,19 @@ import Header from './components/Header';
 import About from './components/About';
 import Works from './components/Works';
 import ContactForm from './components/ContactForm';
-import Services from './components/Services'; // Import the Services component
+import Services from './components/Services';
 
 const App = () => (
   <Router>
     <div className="container">
       <Header />
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route index element={<About />} />
+        <Route path="/Portfolio" element={<About />} />
         <Route path="/works" element={<Works />} />
-        <Route path="/contacts" element={<ContactForm />} />
         <Route path="/services" element={<Services />} />
-        {' '}
-        {/* Add the Services route */}
+        <Route path="/contacts" element={<ContactForm />} />
+        <Route path="/*" element={<div>Page not found</div>} />
       </Routes>
     </div>
   </Router>

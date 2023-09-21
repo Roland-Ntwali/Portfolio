@@ -19,10 +19,10 @@
   - [Show your support ](#show-your-support-)
   - [License ](#license-)
 
-#  :open_book: X-portfolio <a name="about-project"></a>
-X-portfolio is a web application that showcases my projects, gives visitors details about me and how to get in touch.
+#  Portfolio <a name="about-project"></a>
+Portfolio is a web application that showcases my projects and gives visitors details about me and how to get in touch.
 
-## :hammer_and_wrench: Built With <a name="built-with"></a>
+## Built With <a name="built-with"></a>
 ### Tech Stack
 <details><summary>Client</summary>
   <ul>
@@ -58,7 +58,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:<br>
 ```sh
-  cd my-prefered-folder
+  cd my-preferred-folder
 
   git clone https://github.com/Roland-Ntwali/Portfolio.git
 ```

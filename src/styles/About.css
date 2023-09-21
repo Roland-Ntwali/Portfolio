@@ -75,6 +75,15 @@
   font-weight: 600;
   border: none;
   text-decoration: none;
+  transition: background-color 0.3s; /* Add a smooth transition for the background color change */
+}
+
+.cv_button:hover {
+  background-color: #1c3b4f; /* Change the background color on hover to #1c3b4f (or any other desired color) */
+}
+
+.cv_button:active {
+  background-color: #0d222f; /* Change the background color when the button is clicked */
 }
 
 @media all and (max-width: 768px) {

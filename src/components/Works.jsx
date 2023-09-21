@@ -2,8 +2,7 @@ import React from 'react';
 import '../styles/Works.css';
 import BudgetAppImage from '../images/Budget app.png';
 import Bookstore from '../images/Bookstore.png';
-import BlogApp from '../images/Blog app.png';
-import LibraryApp from '../images/School.png';
+import Event from '../images/event.png';
 import MetricsApp from '../images/metrics.png';
 
 const Works = () => (
@@ -11,7 +10,7 @@ const Works = () => (
 
     <div className="project1">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/Budget-app">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Budget-app">
           <img src={BudgetAppImage} alt="Budget-app" />
         </a>
       </div>
@@ -23,15 +22,20 @@ const Works = () => (
           {' '}
         </p>
         <p className="lang">Languages used: Ruby on Rails, CSS</p>
-        <button type="button" className="view-project">
-          <a href="https://budget-app-g6n2.onrender.com">View Project</a>
-        </button>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://budget-app-g6n2.onrender.com">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Budget-app">See code</a>
+          </button>
+        </div>
       </div>
     </div>
 
     <div className="project2">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/Bookstore">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Bookstore">
           <img src={Bookstore} alt="Project 2" />
         </a>
       </div>
@@ -44,57 +48,47 @@ const Works = () => (
           books according to their categories.
         </p>
         <p>Languages used: React, CSS</p>
-        <button type="button" className="view-project">
-          <a href="https://bookstore-cnbs.onrender.com/">View Project</a>
-        </button>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://bookstore-cnbs.onrender.com/">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Bookstore">See code</a>
+          </button>
+        </div>
       </div>
     </div>
 
     <div className="project1">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/Blog-App">
-          <img src={BlogApp} alt="Project 3" />
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Event-website">
+          <img src={Event} alt="Project 2" />
         </a>
       </div>
       <div className="project-details">
-        <h3>Blog App</h3>
+        <h3>Event website</h3>
         <p>
-          A blog platform featuring post listings and enabling
-          visitors to comment on or engage with posts through likes.
-          {' '}
+          EventHub is a dynamic platform designed to seamlessly connect event organizers
+          and attendees in a vibrant community of knowledge-sharing and inspiration.
+          With a focus on meticulously curated events and distinguished featured speakers,
+          EventHub aims to revolutionize the way people discover
+          and participate in meaningful gatherings.
         </p>
-        <p>Languages used: Ruby on Rails</p>
-        <button type="button" className="view-project">
-          <a href="https://github.com/Roland-Ntwali/Blog-App">View Project</a>
-        </button>
+        <p>Languages used: Javascript and CSS</p>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://roland-ntwali.github.io/Event-website/">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Event-website">See code</a>
+          </button>
+        </div>
       </div>
     </div>
 
     <div className="project2">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/School-library-app">
-          <img src={LibraryApp} alt="Project 2" />
-        </a>
-      </div>
-      <div className="project-details">
-        <h3>School library app</h3>
-        <p>
-          The Book Rental Management System is a user-friendly Ruby
-          application designed to streamline the process of managing
-          a book rental service. This app allows users to effortlessly
-          add new books, view a comprehensive list of available books
-          and users, create rentals, and track rental history for specific individuals.
-        </p>
-        <p>Languages used: Ruby</p>
-        <button type="button" className="view-project">
-          <a href="https://github.com/Roland-Ntwali/School-library-app">View Project</a>
-        </button>
-      </div>
-    </div>
-
-    <div className="project1">
-      <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/Metrics-webapp">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Metrics-webapp">
           <img src={MetricsApp} alt="Project 2" />
         </a>
       </div>
@@ -108,9 +102,14 @@ const Works = () => (
           {' '}
         </p>
         <p>Languages used: React, CSS</p>
-        <button type="button" className="view-project">
-          <a href="https://metrics-webapp-iwdl.onrender.com/">View Project</a>
-        </button>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://metrics-webapp-iwdl.onrender.com/">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://preeminent-treacle-2e03fb.netlify.app/">See code</a>
+          </button>
+        </div>
       </div>
     </div>
   </section>

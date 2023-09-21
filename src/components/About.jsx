@@ -14,7 +14,8 @@ const About = () => (
         <h1>Hi, I am Ntwali Roland</h1>
         <p>
           {' '}
-          Helping people make the world a better place through quality software.
+          A Full-stack Software Developer with an exceptional eye for detail,
+          consistently surpassing expectations with meticulously crafted code and designs.
         </p>
         <Link to="/contacts">
           <button type="button" className="hire">Hire Me</button>
@@ -22,9 +23,9 @@ const About = () => (
 
         <h4 className="icon">LET&apos;S CONNECT</h4>
         <ul className="social-icons">
-          <li><a href="https://github.com/Roland-Ntwali" aria-label="GitHub"><FaGithub /></a></li>
-          <li><a href="https://www.linkedin.com/in/roland-ntwali/" aria-label="LinkedIn"><FaLinkedin /></a></li>
-          <li><a href="https://twitter.com/_Ntwali" aria-label="Twitter"><FaTwitter /></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali" aria-label="GitHub"><FaGithub /></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/roland-ntwali/" aria-label="LinkedIn"><FaLinkedin /></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/_Ntwali" aria-label="Twitter"><FaTwitter /></a></li>
         </ul>
       </div>
       <div className="my-image">
@@ -37,23 +38,24 @@ const About = () => (
           <h2>About Me</h2>
           <hr />
           <p className="about-para-one">
-            Hello, I&apos;m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience!
-            If you like what you see and have a project you need coded,
-            don&apos;t hestiate to contact me.
+            I specialize in bringing your ideas to life through custom product development,
+            feature enhancements, and website creation.
+            Take a glimpse at my portfolio and expertise!
+            If you have a coding project in mind, feel free to reach out.
+            Let&apos;s turn your vision into reality!
             {' '}
           </p>
         </div>
         <div className="about-me2">
           <h3 className="title">I am a Professional Web Developer</h3>
           <p>
-            As a seasoned web developer, I am dedicated to crafting high-quality,
-            user-friendly applications. My proficiency spans a wide range of
-            technologies, enabling me to tackle diverse projects with ease. I thrive
-            on writing clean, maintainable code that not only meets the functional
-            requirements but also adheres to best practices. With a keen eye for
-            detail and a drive for continuous learning, I am committed to delivering
-            solutions that exceed client expectations.
+            As a dedicated web developer, I take pride in creating top-notch,
+            user-friendly applications. My expertise covers a diverse range of
+            technologies, allowing me to approach various projects with confidence.
+            I&apos;m passionate about writing clean, efficient code that not only
+            meets functional requirements but also follows industry best practices.
+            With a sharp attention to detail and a commitment to ongoing learning,
+            I&apos;m focused on delivering solutions that surpass client expectations.
           </p>
           <ul>
             <li>Address:  Kigali, Rwanda</li>
@@ -95,6 +97,9 @@ const About = () => (
             <button type="button" className="skill-button">Github</button>
             <button type="button" className="skill-button">Git</button>
             <button type="button" className="skill-button">Codepen</button>
+            <button type="button" className="skill-button">Remote pair-programming</button>
+            <button type="button" className="skill-button">Teamwork</button>
+            <button type="button" className="skill-button">Mentoring</button>
           </div>
         </div>
       </div>

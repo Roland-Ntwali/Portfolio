@@ -11,7 +11,7 @@ const Works = () => (
 
     <div className="project1">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/Budget-app">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Budget-app">
           <img src={BudgetAppImage} alt="Budget-app" />
         </a>
       </div>
@@ -23,15 +23,20 @@ const Works = () => (
           {' '}
         </p>
         <p className="lang">Languages used: Ruby on Rails, CSS</p>
-        <button type="button" className="view-project">
-          <a href="https://budget-app-g6n2.onrender.com">View Project</a>
-        </button>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://budget-app-g6n2.onrender.com">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Budget-app">See code</a>
+          </button>
+        </div>
       </div>
     </div>
 
     <div className="project2">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/Bookstore">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Bookstore">
           <img src={Bookstore} alt="Project 2" />
         </a>
       </div>
@@ -44,15 +49,20 @@ const Works = () => (
           books according to their categories.
         </p>
         <p>Languages used: React, CSS</p>
-        <button type="button" className="view-project">
-          <a href="https://bookstore-cnbs.onrender.com/">View Project</a>
-        </button>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://bookstore-cnbs.onrender.com/">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Bookstore">See code</a>
+          </button>
+        </div>
       </div>
     </div>
 
     <div className="project1">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/Blog-App">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Blog-App">
           <img src={BlogApp} alt="Project 3" />
         </a>
       </div>
@@ -64,15 +74,20 @@ const Works = () => (
           {' '}
         </p>
         <p>Languages used: Ruby on Rails</p>
-        <button type="button" className="view-project">
-          <a href="https://github.com/Roland-Ntwali/Blog-App">View Project</a>
-        </button>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Blog-App">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Blog-App">See code</a>
+          </button>
+        </div>
       </div>
     </div>
 
     <div className="project2">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/School-library-app">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/School-library-app">
           <img src={LibraryApp} alt="Project 2" />
         </a>
       </div>
@@ -86,15 +101,20 @@ const Works = () => (
           and users, create rentals, and track rental history for specific individuals.
         </p>
         <p>Languages used: Ruby</p>
-        <button type="button" className="view-project">
-          <a href="https://github.com/Roland-Ntwali/School-library-app">View Project</a>
-        </button>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/School-library-app">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/School-library-app">See code</a>
+          </button>
+        </div>
       </div>
     </div>
 
     <div className="project1">
       <div className="project-image">
-        <a href="https://github.com/Roland-Ntwali/Metrics-webapp">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Metrics-webapp">
           <img src={MetricsApp} alt="Project 2" />
         </a>
       </div>
@@ -108,9 +128,14 @@ const Works = () => (
           {' '}
         </p>
         <p>Languages used: React, CSS</p>
-        <button type="button" className="view-project">
-          <a href="https://metrics-webapp-iwdl.onrender.com/">View Project</a>
-        </button>
+        <div className="buttons">
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://metrics-webapp-iwdl.onrender.com/">Preview</a>
+          </button>
+          <button type="button" className="view-project">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Roland-Ntwali/Metrics-webapp">See code</a>
+          </button>
+        </div>
       </div>
     </div>
   </section>

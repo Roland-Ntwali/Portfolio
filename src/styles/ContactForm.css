@@ -60,6 +60,15 @@
   font-size: 22px;
   background-color: #24516c;
   color: #fff;
+  transition: background-color 0.3s; /* Add a smooth transition for the background color change */
+}
+
+.contact-me button:hover {
+  background-color: #1c3b4f; /* Change the background color on hover to #1c3b4f (or any other desired color) */
+}
+
+.contact-me button:active {
+  background-color: #0d222f; /* Change the background color when the button is clicked */
 }
 
 @media all and (max-width: 768px) {

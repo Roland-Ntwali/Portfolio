@@ -3,8 +3,8 @@
 # 📗 *Table of Contents*
 
 - [📗 *Table of Contents*](#-table-of-contents)
-- [:open\_book: X-portfolio ](#open_book-x-portfolio-)
-  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
+- [Portfolio ](#portfolio-)
+  - [Built With ](#built-with-)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [Live Demo ](#live-demo-)
@@ -19,10 +19,10 @@
   - [Show your support ](#show-your-support-)
   - [License ](#license-)
 
-#  :open_book: X-portfolio <a name="about-project"></a>
-X-portfolio is a web application that showcases my projects, gives visitors details about me and how to get in touch.
+#  Portfolio <a name="about-project"></a>
+Portfolio is a web application that showcases my projects, gives visitors details about me and how to get in touch.
 
-## :hammer_and_wrench: Built With <a name="built-with"></a>
+## Built With <a name="built-with"></a>
 ### Tech Stack
 <details><summary>Client</summary>
   <ul>

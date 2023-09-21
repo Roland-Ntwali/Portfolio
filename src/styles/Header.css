@@ -228,18 +228,19 @@ body {
     padding: 8px;
     border-radius: 6px;
   }
+
   .language-button,
-.framework-button,
-.skill-button {
-  width: 182px;
-  height: 32px;
-  border: none;
-  font-size: 12px;
-  font-weight: bold;
-  border-radius: 25px;
-  text-align: center;
-  padding: 5px;
-}
+  .framework-button,
+  .skill-button {
+    width: 182px;
+    height: 32px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px;
+  }
 
   .menu-toggle {
     display: flex;

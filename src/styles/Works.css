@@ -66,16 +66,17 @@
   margin: 0;
   padding: 0;
 }
-.buttons{
+
+.buttons {
   display: flex;
   gap: 10px;
 }
+
 .view-project {
   height: 35px;
   width: 133px;
   border: none;
   border-radius: 8px;
-
 }
 
 .view-project a {

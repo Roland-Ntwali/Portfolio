@@ -3,8 +3,8 @@
 # 📗 *Table of Contents*
 
 - [📗 *Table of Contents*](#-table-of-contents)
-- [:open\_book: X-portfolio ](#open_book-x-portfolio-)
-  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
+- [Portfolio ](#open_book-portfolio-)
+  - [Built With ](#built-with-)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [Live Demo ](#live-demo-)

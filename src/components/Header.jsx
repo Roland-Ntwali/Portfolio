@@ -30,7 +30,7 @@ const Header = () => {
 
     return () => {
       window.removeEventListener('resize', handleResize);
-      document.body.style.overflow = 'visible'; //  Reset overflow on component cleanup
+      document.body.style.overflow = 'visible'; // Reset overflow on component cleanup
     };
   }, [isMenuOpen]);
 

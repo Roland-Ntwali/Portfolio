@@ -45,7 +45,7 @@ const Header = () => {
             <button
               className={`menu-toggle ${isMenuOpen ? 'open' : ''}`}
               onClick={toggleMenu}
-              aria-label="Toggle menu"
+              aria-label={isMenuOpen ? 'Close menu' : 'Open menu'} // Set appropriate labels for open and close states
               type="button"
               id="menuButton"
             >

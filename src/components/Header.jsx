@@ -45,7 +45,7 @@ const Header = () => {
             <button
               className={`menu-toggle ${isMenuOpen ? 'open' : ''}`}
               onClick={toggleMenu}
-              aria-label={isMenuOpen ? 'Close menu' : 'Open menu'} // Set appropriate labels for open and close states
+              aria-label="Toggle menu"
               type="button"
               id="menuButton"
             >
@@ -55,6 +55,7 @@ const Header = () => {
                 onKeyDown={(e) => e.key === 'Enter' && toggleMenu()} // Handle Enter key for accessibility
                 role="button"
                 tabIndex={0} // Make it focusable
+                aria-label="Toggle menu"
               >
                 <span className="bar1" />
                 <span className="bar2" />

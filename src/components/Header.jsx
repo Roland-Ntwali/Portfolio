@@ -55,6 +55,7 @@ const Header = () => {
                 onKeyDown={(e) => e.key === 'Enter' && toggleMenu()} // Handle Enter key for accessibility
                 role="button"
                 tabIndex={0} // Make it focusable
+                aria-label="Toggle menu"
               >
                 <span className="bar1" />
                 <span className="bar2" />

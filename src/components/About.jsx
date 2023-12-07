@@ -61,7 +61,7 @@ const About = () => (
             <li>Address:  Kigali, Rwanda</li>
             <li>Phone:  +250788516564</li>
           </ul>
-          <a className="cv" href="https://docs.google.com/document/d/1NLjj_45cJeJFrfiAhvt2pI2ZUJFoFwJD5DoCYbOHiD8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a className="cv" href="https://docs.google.com/document/d/1m7zhyW_-alI-vsfSHviXNiNUYq3T17tYRgwJthEP1Yk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="cv_button" type="button">Download CV</button>
           </a>
         </div>
